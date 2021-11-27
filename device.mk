@@ -17,7 +17,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.bass:root/fstab.bass \
     $(LOCAL_PATH)/init.recovery.bass.rc:root/init.recovery.bass.rc
 
-$(call inherit-product, build/target/product/full.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_bass
